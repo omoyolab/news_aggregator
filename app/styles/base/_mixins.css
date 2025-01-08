@@ -1,0 +1,31 @@
+@define-mixin forMiniTablet {
+	@media (min-width: 530px) {
+		@mixin-content;
+	}
+}
+
+@define-mixin forTablet {
+	@media (min-width: 800px) {
+		@mixin-content;
+	}
+}
+
+@define-mixin forDesktop {
+	@media (min-width: 1200px) {
+		@mixin-content;
+	}
+}
+
+@define-mixin forLargeScreen {
+	@media (min-width: 1400px) {
+		@mixin-content;
+	}
+}
+
+@define-mixin clearfix {
+	&::after {
+		content: '';
+		clear: both;
+		display: table;
+	}
+}

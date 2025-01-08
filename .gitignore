@@ -1,0 +1,14 @@
+# .gitignore
+
+# Node.js
+node_modules/
+
+# Test files and coverage reports
+coverage/
+_tests_/
+*.test.js
+
+# removing vs code
+.vscode/
+docs/
+*.sh
