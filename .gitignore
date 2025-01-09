@@ -12,3 +12,6 @@ _tests_/
 .vscode/
 docs/
 *.sh
+
+#Mac Files
+.DS_Store
